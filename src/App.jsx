@@ -1,12 +1,8 @@
-import {BrowserRouter} from "react-router"
-import { IconName } from "react-icons/ci";
-
+import Home from "./Components/Home"
 const App = () => {
   return (
     <div>
-     <BrowserRouter>
-     <CiBatteryFull />
-     </BrowserRouter>
+      <Home/>
     </div>
   )
 }
