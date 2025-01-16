@@ -1,7 +1,9 @@
+import { div } from "motion/react-m";
 import React from "react";
-
+import ContentMain from "./ContentMain"
 const BackgroundVideo = () => {
     return (
+    <div>
         <div className="relative w-full h-screen overflow-hidden">
             <video
                 className="absolute top-0 left-0 w-full h-full object-cover"
@@ -26,8 +28,7 @@ const BackgroundVideo = () => {
                         Welcome to HealTracker
                     </h1>
                     <p className="text-white text-lg md:text-xl max-w-xl mx-auto opacity-90 hover:animate-bounce hover:p-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni velit inventore
-                        voluptatibus ducimus aperiam exercitationem praesentium sit id sunt hic.
+                    Your trusted partner in understanding your health. Use our symptom checker to get insights and track your health results today.
                     </p>
 
                     <div className="flex justify-center gap-x-6 mt-6">
@@ -39,13 +40,15 @@ const BackgroundVideo = () => {
                         </a>
                         <a
                             href=""
-                            className="py-3 px-6 font-semibold capitalize rounded-lg shadow-lg bg-gray-800 hover:bg-gray-900 hover:text-white transition duration-300"
+                            className="py-3 px-6 font-semibold capitalize rounded-lg shadow-lg hover:bg-gray-800 bg-gray-900 text-white transition duration-300"
                         >
                             Select Your Symptoms
                         </a>
                     </div>
                 </div>
             </div>
+        </div>
+        <ContentMain />
         </div>
     );
 };

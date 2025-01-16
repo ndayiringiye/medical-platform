@@ -12,7 +12,6 @@ const Home = () => {
           <LogginForm />
         </Sider>
       </Layout>
-      <Footer >Footer</Footer>
     </Layout>
     </div>
   )
