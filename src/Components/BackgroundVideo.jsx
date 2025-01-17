@@ -1,6 +1,5 @@
-import { div } from "motion/react-m";
-import React from "react";
 import ContentMain from "./ContentMain"
+import { Link } from "react-router";
 const BackgroundVideo = () => {
     return (
     <div>
@@ -32,17 +31,17 @@ const BackgroundVideo = () => {
                     </p>
 
                     <div className="flex justify-center gap-x-6 mt-6">
-                        <a
-                            href=""
+                        <Link
+                            to="/symptoms"
                             className="py-3 px-6 font-semibold capitalize rounded-lg shadow-lg bg-blue-600 hover:bg-blue-700 hover:text-white transition duration-300"
                         >
                             Start Symptoms Checker
-                        </a>
+                        </Link>
                         <a
                             href=""
                             className="py-3 px-6 font-semibold capitalize rounded-lg shadow-lg hover:bg-gray-800 bg-gray-900 text-white transition duration-300"
                         >
-                            Select Your Symptoms
+                            Select Ymt-[20%] our Symptoms
                         </a>
                     </div>
                 </div>

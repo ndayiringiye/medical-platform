@@ -1,6 +1,6 @@
 [
     {
-        "id" :1,
+     "id" :1,
      "title":"Check Your Symptoms Quickly",
      "card" :"Enter your symptoms into our intuitive checker and receive instant insights to help you understand your health."
     },
@@ -15,4 +15,6 @@
         "head":"Monitor Your Health Progress",
         "main" : "Keep track of your symptoms and results over time, helping you stay informed and take control of your health."
     }
+
+   
 ]
