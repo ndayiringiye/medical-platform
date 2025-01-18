@@ -41,7 +41,7 @@ const BackgroundVideo = () => {
                             href=""
                             className="py-3 px-6 font-semibold capitalize rounded-lg shadow-lg hover:bg-gray-800 bg-gray-900 text-white transition duration-300"
                         >
-                            Select Ymt-[20%] our Symptoms
+                            Select Your Symptoms
                         </a>
                     </div>
                 </div>
