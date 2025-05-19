@@ -1,0 +1,17 @@
+[
+    {
+        "id":4,
+        "nav" :"informs",
+        "symptoms":"symptoms",
+        "condition":"condition",
+        "detail":"detail",
+        "treat":"treatments"
+    },
+    {
+        "id":5,
+        "img":"src/imges/image copy 3.png",
+        "name":"healtrack",
+        "nick":"just beggin Your Symptom Diagnosis Journey and treatment related to your symptoms",
+        "supernick":"This tool provide medical advice."
+    }
+]
